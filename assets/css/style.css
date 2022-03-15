@@ -5,6 +5,13 @@
     font-style: normal;
     font-weight: 500;
 }
+hr{
+    
+    border: 1px solid #FFFFFF
+}
+a{
+    text-decoration: none;
+}
 body{
     font-family: Montserrat;
     font-weight: 900;
@@ -17,4 +24,50 @@ body{
 }
 .main{
     background: url('../img/photos/backgr.png') no-repeat center center / cover;
+}
+.header{
+    padding-top: 27px;
+}
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+.header_text{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 462px;
+    text-align:center;
+}
+.header_block{
+    display: flex;
+    align-items: center;
+}
+.header_icons{
+    display: flex;
+}
+.header_icon{
+    margin-right: 9px;
+}
+.header_content{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;  
+    margin-right: 9px;
+}
+.header_number{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    justify-content: right;
+    text-align: end;
+    display: flex;
 }
