@@ -1,32 +1,27 @@
 @font-face{
     font-family: "Montserrat";
-    src: url("/assets/fonts/Montserrat-Medium.ttf") format("ttf");
-    font-style: normal;
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
     font-weight: 500;
 }
 @font-face{
     font-family: "Montserrat";
-    src: url("/assets/fonts/Montserrat-Bold.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 500;
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 700;
 }
 @font-face{
     font-family: "Montserrat";
-    src: url("/assets/fonts/Montserrat-Regular.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 500;
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
 }
 @font-face{
     font-family: "Montserrat";
-    src: url("/assets/fonts/Montserrat-SemiBold.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 500;
+    src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 600;
 }
 @font-face{
     font-family: "Montserrat";
-    src: url("/assets/fonts/Montserrat-Black.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 500;
+    src: url("../fonts/Montserrat-Black.ttf") format("truetype");
+    font-weight: 900;
 }
 hr{
     
@@ -37,7 +32,6 @@ a{
 }
 body{
     font-family: Montserrat;
-    font-weight: 600;
     margin: 0;
     padding: 0;
 }
@@ -441,4 +435,264 @@ body{
 }
 .geo_btn:hover{
     box-shadow: 0 0 20px #402D50;
+}
+/* servicies */
+.services_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+}
+.services_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 28px;
+    margin-bottom: 47px;
+}
+.services_blocks{
+    display: flex;
+    margin-bottom: 85px;
+}
+.services_block{
+    text-align: center;
+    margin-right: 20px;
+}
+.services_block_text{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.services_content{
+    margin-left: 338px;
+}
+.services_block1{
+    margin-left: 65px;
+    text-align: center;
+}
+.services_block2{
+    margin-left: 12px;
+    text-align: center;
+}
+/* employ */
+.employ_wrapper{
+    margin-top: 150px;
+    display: flex;
+}
+.employ_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.employ_business{
+    display: flex;
+    align-items: center;
+    margin-top: 240px;
+}
+.employ_business_img{
+    margin-right: 14px;
+}
+.employ_business_text{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.employ_wrapper_photo{
+    margin-left: 260px;
+    margin-top: -30px;
+}
+/* order */
+.order_wrapper{
+    margin-top: 200px;
+}
+.colortext4{
+    background-color: #A56492;
+    color: white;
+    padding: 3px 12px;
+}
+.order_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    text-align: center;
+}
+.colortext5{
+    background-color: #A56492;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    margin-left: 43px;
+}
+.oreder_numbers_one{
+    display: flex;  
+    align-items: center;
+}
+.order_numbers_one{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: #000000;
+}
+.order_line{
+    position: absolute;
+    margin-top: -50px;
+}
+.colortext6{
+    background-color: #A56492;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    margin-left: 126px;
+}
+.order_number_two{
+    margin-top: -90px;
+}
+.order_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order_equal{
+    color: #A56492;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 100px;
+}
+.order_num{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: #000000;
+}
+/* quan */
+.quan_wrapper{
+    margin-top: 150px;
+}
+.quan_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+}
+.colortext7{
+    background: #A56492;
+    color: white;
+    padding: 5px 28px;
+}
+.quan_content{
+    display: flex;
+    margin-top: 70px;
+}
+.quan_block{
+    display: flex;
+    align-items: center;
+}
+.quan_block_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.quan_block_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #402D50;
+    margin-top: -20px;
+}
+.quan_block_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: -20px;
+}
+#quan_block_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: -20px;
+}
+.quan_block_content{
+    margin-left: 50px;
+}
+.quan_photo{
+    margin-left: 30px;
+}
+.colortext8{
+    font-weight: 500;
+}
+/* salaryss */
+.salaryss_content{
+    display: flex;
+    align-items: center;
+}
+.salaryss_wrapper{
+    margin-top: 100px;
+}
+.salaryss_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.colortext8{
+    color:white;
+    background-color: #A56492;
+}
+.salaryss_text_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.salaryss_text_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.salaryss_text{
+    margin-bottom: 28px;
+}
+.colortext9{
+    font-weight: 700;
+}
+.salaryss_like_text{
+    display: flex;
+    margin-top: 50px;
+}
+.salaryss_photo{
+    margin-right: 58px;
+    margin-left: 58px;
+    margin-top: 50px;
 }
