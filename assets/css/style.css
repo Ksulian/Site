@@ -100,6 +100,8 @@ body{
 /* face */
 .face_wrapper{
     margin-top: 19px;
+    padding-bottom: 50px;
+
 }
 .face_text{
     font-family: 'Montserrat';
@@ -108,6 +110,8 @@ body{
     line-height: 49px;
     color: #FFFFFF;
     text-align: center;
+    margin-top: 19px;
+    margin-bottom: 15px;
 }
 .face_content{
     font-family: 'Montserrat';
@@ -116,7 +120,325 @@ body{
     line-height: 49px;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 38px;
 }
 .colortext{
     color: #402D50;
+}
+.face_block_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.face_block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.face_block_icon{
+    height: 71px;
+    width: 71px;
+    margin-right: 50px;
+}
+.face_blocks{
+    margin-bottom: 69px;
+}
+.face_text2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 54px;
+}
+.face_btn{
+    display: flex;
+    align-items: center;
+    background: #A56492;
+    border-radius: 20px;
+    border: none;
+    width: 299px;
+    height: 91px;
+    box-shadow: 0 0 22px #FFFFFF;
+    margin-left: 50px;
+    justify-content: center;
+}
+.face_btn_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 17px;
+}
+.face_btn:hover{
+    box-shadow: 0 0 22px #402D50;
+}
+/* covid */
+.covid_content{
+    width: 600px;
+    margin-left: 182px;
+    margin-top: 20px;
+}
+.covid_wrapper{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.covid_text{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 64px;
+}
+.covid_text2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 64px;
+}
+.covid_btn{
+    display: flex;
+    align-items: center;
+    background: #A56492;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 22px #402D50;
+    margin-left: 50px;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 17px;
+    height: 91px;
+    width: 480px;
+}
+.covid_btn:hover{
+    box-shadow: 0 0 30px #180725;
+}
+/* director */
+.colortext2{
+    color:  #402D50;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.direcor_name{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.director_photo{
+    margin-top: -25px;
+}
+.director_wrapper{
+    display: flex;
+    margin-top: 124px;
+    margin-bottom: 100px;
+}
+.director_content{
+    margin-left: 166px;
+}
+.director_beginning{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.director_name_company{
+    margin-bottom: 21px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #402D50;
+}
+.director_text{
+    width: 613px;
+    margin-bottom: 59px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.director_input_name{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 278px;
+    height: 60px;
+    text-align: center;
+    border: none;
+}
+.director_input_name::placeholder{
+    color: white;
+}
+.director_input_number{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 278px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    margin-left: 55px;
+}
+.director_input_number::placeholder{
+    color: white;
+}
+.director_input{
+    margin-bottom: 63px;
+}
+.director_btn1{
+    width: 278px;
+    height: 91px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;  
+    border: none;
+    background: #A9A6A8;
+    border-radius: 20px; 
+    margin-right: 58px;
+}
+.director_btn1:hover{
+    box-shadow: 0 0 20px #A9A6A8;
+}
+.director_btns{
+    display: flex;
+}
+.director_btn2{
+    width: 278px;
+    height: 91px;
+    background: #A56492;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    justify-content: center;
+}
+.director_btn2:hover{
+    box-shadow: 0 0 20px #A9A6A8;
+}
+.director_icon{
+    margin-right: 9px;
+}
+/* geo */
+.geo_wrapper{
+    margin-bottom: 100px;
+}
+.geo_video{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 144px;
+    background: #C4C4C4;
+    line-height: 176px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 186px 230px;
+    margin-left: 240px;
+}
+.geo_content{
+    margin-top: 350px;
+    margin-bottom: 308px;
+}
+.colortext3{
+    color: #402D50;
+}
+.geo_text{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 38px;
+}
+.geo_text2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    margin-left: 430px;
+    margin-top: -20px;
+    border: 18px solid #FFFFFF;
+}
+.geo_map{
+    margin-left: -105px;
+}
+.geo_btns{
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+.geo_input{
+    background: #A9A6A8;
+    border-radius: 20px;
+    width: 299px;
+    height: 60px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+    text-align: center;
+}
+.geo_input::placeholder{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;   
+}
+.geo_btn{
+    width: 299px;
+    height: 60px;
+    background: #A56492;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 0 10px #402D50;
+}
+.geo_btn:hover{
+    box-shadow: 0 0 20px #402D50;
 }
