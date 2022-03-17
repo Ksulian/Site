@@ -513,6 +513,47 @@ body{
     margin-left: 260px;
     margin-top: -30px;
 }
+/* earn */
+.earn_wrapper{
+    margin-top: 100px;
+}
+.color_text2{
+    color:#FFFFFF;
+    background-color: #db86c2;
+    padding: 5px 5px 5px;
+}
+.earn_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+.earn_chapter{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.earn_chapter2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+.earn_line{
+    margin-left: 270px;
+    margin-bottom: 40px;
+}
+.earn_photo{
+    display: flex;
+    align-items: center;
+}
 /* order */
 .order_wrapper{
     margin-top: 200px;
@@ -647,6 +688,10 @@ body{
 .colortext8{
     font-weight: 500;
 }
+.colortext10{
+    background-color: none;
+    font-weight: 500;
+}
 /* salaryss */
 .salaryss_content{
     display: flex;
@@ -654,6 +699,7 @@ body{
 }
 .salaryss_wrapper{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .salaryss_title{
     font-family: 'Montserrat';
@@ -695,4 +741,604 @@ body{
     margin-right: 58px;
     margin-left: 58px;
     margin-top: 50px;
+}
+.salaryss_like{
+    display: block;
+    width: 99px;
+    height: 98px;
+    margin-right: 21px;
+}
+.salaryss_like_text_title{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 56px;
+}
+/* profit */
+.profit_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.profit_wrapper{
+    padding-bottom: 90px;
+    background: url('../img/photos/fon_profit.png') no-repeat center center / cover;
+}
+.colortext11{
+    color: white;
+    background-color: #A56492;
+}
+.colortext12{
+    font-weight: 700;
+}
+.profit_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 54px;
+    margin-bottom: 36px;
+}
+.profit_content{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.colortext13{
+    font-weight: 700;
+}
+.colortext14{
+    color: #FFFFFF;
+    background-color: #A56492;
+}
+.profit_text{
+    margin-top: 36px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+/* excel */
+.excel_wrapper{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+.excel_btn{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    padding: 0px 46px;
+    background: #A56492;
+    border-radius: 20px;
+    border: none;
+    margin-top: -7px;
+}
+.ex_icon_btn{
+    margin-right: 14px;
+}
+.excel_btns{
+    display: flex;
+    justify-content: space-between;
+}
+.excel_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.excel_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.excel_input_name{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 304px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.excel_input_name::placeholder{
+    color: white;
+}
+.excel_input_number{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 304px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.excel_input_number::placeholder{
+    color: white;
+}
+/* scroll */
+.scroll_wrapper{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.scroll_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 28px;
+}
+.colortext15{
+    color: #180725;
+}
+.scroll_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.scroll_content{
+    display: flex;
+    justify-content: space-between;
+}
+.scroll_btn{
+    height: 260px;
+    width: 260px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: table;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #A56492;
+    border: none;
+    margin-bottom: 50px;
+}
+.scroll_btn:hover{
+    box-shadow: 0 0 20px #180725;
+}
+.scroll_icon{
+    margin-bottom: 13px;
+}
+/* style */
+.style_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+.style_wrapper{
+   margin-bottom: 100px;
+}
+.style_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+}
+.style_btn{
+    margin-top: 75px;
+    padding: 24px 15px;
+    background-color: #A56492;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #A56492;
+    border-radius: 20px;
+}
+.style_btn:hover{
+    box-shadow: 0 0 20px #402D50;
+}
+.style_btns{
+    display: flex;	
+    justify-content: center;
+}
+/* reviews */
+.reviews_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 65px;
+    margin-top: 100px;
+}
+.reviews_content{
+    display: flex;
+    justify-content: space-between;
+}
+.reviews_btn{
+    height: 186px;
+    width: 325px;
+    background-color: gray;
+    border: none;
+}
+.reviews_btn:hover{
+    box-shadow: 0 0 10px #402D50;
+}
+.reviews_btn{
+    height: 185px;
+    width: 325px;
+    display: table;
+    background: gray;
+    border: none;
+    margin-bottom: 50px;
+}
+.reviews_btn:hover{
+    box-shadow: 0 0 20px #180725;
+}
+/* one */
+.one_wrapper{
+    margin-top: 50px;
+    margin-bottom: 190px;
+}
+.one_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #000000;
+    margin-top: -210px;
+}
+.one_icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* center */
+.center_wrapper{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.center_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+.center_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.center_input{
+    display: flex;
+    justify-content: space-between;
+}
+.center_input_name{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 304px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.center_input_name::placeholder{
+    color: white;
+}
+.center_input_number{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 304px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.center_input_number::placeholder{
+    color: white;
+}
+.center_btn{
+    width: 304px;
+    height: 70px;
+    color: white;
+    background-color: #A56492;
+    border: none;
+    border-radius: 20px;
+}
+.center_input{
+    margin-top: 20px;
+}
+.center_btn:hover{
+    box-shadow: 0 0 20px #402D50;
+}
+/* files */
+.files_wrapper{
+    margin-bottom: 100px;
+}
+.files_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.files_btns{
+    display: flex;
+    justify-content: space-between;
+}
+.files_btn{
+    height: 260px;
+    width: 260px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: table;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #A56492;
+    border: none;
+    margin-bottom: 50px;
+}
+.files_btn:hover{
+    box-shadow: 0 0 20px #180725;
+}
+.files_brace{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.files_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.files_input{
+    display: flex;
+    justify-content: space-between;
+}
+.files_input_name{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 230px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.files_input_name::placeholder{
+    color: white;
+}
+.files_input_number{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 230px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.files_input_number::placeholder{
+    color: white;
+}
+.files_btn_input{
+    width: 460px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    height: 70px;
+    color: white;
+    background-color: #A56492;
+    border: none;
+    border-radius: 20px;
+}
+.files_btn_input:hover{
+    box-shadow: 0 0 20px #402D50;
+}
+/* questions */
+.questions_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.questions_wrapper{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.questions_block{
+    display: flex;
+    margin-bottom: 15px;
+}
+.questions_icon{
+    margin-right: 14px;
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+.questions_question{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: -1px;
+}
+.quections_answer{
+    color: black;
+    margin-left: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.questions_question2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.colortext16{
+    color: #402D50;
+}
+/* director2 */
+.director2_wrapper{
+    display: flex;
+    margin-bottom: 100px;
+}
+.director2_content{
+    width: 613px;
+}
+.director2_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.director2_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.director2_info{
+    margin-left: 170px;
+}
+.director2_photo{
+    margin-left: 20px;
+}
+.director2_input{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+.director2_input_content{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 278px;
+    height: 60px;
+    text-align: center;
+    border: none;
+}
+.director2_input_content::placeholder{
+    color: white;
+}
+.director2_btns{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.director2_btn1{
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    background: #A9A6A8;
+    border-radius: 20px;
+    color: white;
+    height: 91px;
+    width: 278px;
+    border: none;
+}
+.director2_btn1:hover{
+    box-shadow: 0 0 10px #A9A6A8;
+}
+.director2_btn2{
+    width: 278px;
+    height: 91px;
+    background: #A56492;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    justify-content: center;
+}
+.director2_btn2:hover{
+    box-shadow: 0 0 20px #A9A6A8;
 }
