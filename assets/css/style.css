@@ -830,6 +830,9 @@ body{
     border: none;
     margin-top: -7px;
 }
+.excel_btn:hover{
+    box-shadow: 0 0 10px #402D50;
+}
 .ex_icon_btn{
     margin-right: 14px;
 }
@@ -1341,4 +1344,10 @@ body{
 }
 .director2_btn2:hover{
     box-shadow: 0 0 20px #A9A6A8;
+}
+.director2_name{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
 }
