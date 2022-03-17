@@ -1091,7 +1091,11 @@ body{
     color: white;
 }
 .center_btn{
-    width: 304px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    width: 460px;
     height: 70px;
     color: white;
     background-color: #A56492;
@@ -1350,4 +1354,82 @@ body{
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
+}
+/* director3 */
+.director3_wrapper{
+    display: flex;
+}
+.director3_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.director3_content{
+    width: 685px;
+}
+.director3_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 57px;
+}
+.director3_inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.director3_input{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 278px;
+    height: 60px;
+    text-align: center;
+    border: none;
+}
+.director3_input::placeholder{
+    color: white;
+}
+.director3_input_question{
+    margin-top: 25px;
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    height: 60px;
+    border: none;
+    width: 685px;
+}
+.director3_input_question::placeholder{
+    color: white;
+}
+.director3_btn{
+    height: 60px;
+    width: 278px;
+    background: #A56492;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 25px;
+    justify-content: center;
+}
+.director3_btn:hover{
+    box-shadow: 0 0 10px #180725;
 }
