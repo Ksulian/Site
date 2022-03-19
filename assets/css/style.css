@@ -1537,7 +1537,6 @@ height: 148px;
 .blocks{
     display: flex;
     margin-top: 50px;
-    margin-bottom: 50px;
     justify-content: center;
 }
 .block{
@@ -1571,6 +1570,7 @@ height: 148px;
 .btns{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
     margin-bottom: 100px;
 }
 .input{
@@ -1608,4 +1608,8 @@ height: 148px;
 }
 .btn:hover{
     box-shadow: 0 0 10px #402D50;
+}
+.block2{
+    margin-left: 200px;
+    width: 230px;
 }
