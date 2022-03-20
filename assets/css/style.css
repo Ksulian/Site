@@ -1609,7 +1609,11 @@ height: 148px;
 .btn:hover{
     box-shadow: 0 0 10px #402D50;
 }
-.block2{
+.blocks2{
     margin-left: 200px;
+    display: flex;
+}
+.block2{
     width: 230px;
+    margin-right: 40px;
 }
